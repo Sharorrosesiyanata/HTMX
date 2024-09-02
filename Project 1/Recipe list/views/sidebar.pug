@@ -1,0 +1,17 @@
+ul.recipe-list
+  each recipe in recipes
+    li
+      a(
+        href=`/recipes/${recipe.id}`,
+        hx-get=`/recipes/${recipe.id}`,
+        hx-target='#content'
+        hx-push-url='true',
+      )= recipe.name
+
+div.actions
+  a(
+    href='/recipes/new',
+    hx-get='/recipes/new',
+    hx-target='#content',
+    hx-push-url='true'
+  ) New Recipe 

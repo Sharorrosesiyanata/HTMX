@@ -1,0 +1,23 @@
+h2 #{recipe.ingredient}
+
+p #[strong Ingredient:] #{recipe.ingredient}
+p #[strong PreparationTime:] #{recipe.preparationTime}
+
+div.actions
+  form(method='POST', action=`/delete/${recipe.id}?_method=DELETE`)
+    button(
+      type='submit',
+      hx-delete=`/delete/${recipe.id}`,
+      hx-target='#sidebar',
+      hx-push-url='/recipes'
+      class='link'
+    ) Delete Recipe
+
+  a(
+    href=`/recipes/${recipe.id}/edit`,
+    hx-get=`/recipes/${recipe.id}/edit`,
+    hx-push-url='true',
+    hx-target='#content'
+  ) Edit Recipe
+
+

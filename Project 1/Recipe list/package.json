@@ -1,0 +1,17 @@
+{
+  "name": "contact-manager",
+  "version": "1.0.0",
+  "description": "An HTMX-powered CRUD app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "Sharon-Rose",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "method-override": "^3.0.0",
+    "pug": "^3.0.3"
+  }
+}

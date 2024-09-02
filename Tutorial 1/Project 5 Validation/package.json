@@ -1,0 +1,19 @@
+{
+  "name": "sharon-rose",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "xss":"^1.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1"
+  }
+}
