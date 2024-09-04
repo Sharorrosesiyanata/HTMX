@@ -1,13 +1,13 @@
 :root {
-    --color-primary: #3273dc;
-    --color-secondary: #23d160;
-    --color-background: #f9f9f9;
-    --color-text: #363636;
-    --color-white: #fff;
+    --color-primary: #cc35b3;
+    --color-secondary: #390c4c;
+    --color-background: #c9a0c9;
+    --color-text: #4e3d4c;
+    --color-white: #c8aac4;
     --color-light-gray: #ccc;
-    --color-flash: #48c78e;
+    --color-flash: #480a44;
     --color-flash-text: #f9f9f9;
-    --color-link-hover: #255aa7;
+    --color-link-hover: #9a4fb0;
     --color-shadow: rgba(0 0 0 / 20%);
   }
   
